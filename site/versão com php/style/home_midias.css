@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+    header > i#menu {
+        display: none;
+    }
+
+    header > menu#itens {
+        display: block;
+    }
+
+    header > menu#itens {
+        display: inline-block;
+        position: relative;
+        background-color: #C00000;
+        max-width: 500px;
+        left: 700px;
+        bottom: 85px;
+    }
+
+    header > i#usuario {
+        display: block;
+        left: 1240px;
+        bottom: 67px;
+    }
+
+    header > menu#pessoa {
+        display: none;
+        position: relative;
+        max-width:300px;
+        left: 1000px;
+        bottom: 67px;
+        border: none;
+    }
+}
+
+
+@media screen and (min-width: 1900px) {
+    header > i#menu {
+        display: none;
+    }
+
+    header > menu#itens {
+        display: block;
+    }
+
+    header > menu#itens {
+        display: inline-block;
+        position: relative;
+        background-color: #C00000;
+        max-width: 500px;
+        left: 1300px;
+        bottom: 85px;
+    }
+
+    header > i#usuario {
+        display: block;
+        left: 1850px;
+        bottom: 67px;
+    }
+
+    header > menu#pessoa {
+        display: none;
+        position: relative;
+        max-width:300px;
+        left: 1650px;
+        bottom: 67px;
+        border: none;
+    }
+}

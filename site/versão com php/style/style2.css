@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, rgb(9, 9, 9), rgb(21, 21, 21), rgb(141, 17, 17)); 
+}
+
+main {
+    position: relative;
+    height: 93vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(9, 9, 9), rgb(21, 21, 21), rgb(141, 17, 17));
+}
+
+div#form {
+    background-color: black;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    overflow: hidden;
+
+    background-color: black;
+    width: 250px;
+    height: 360px;
+    border-radius: 15px;
+
+    transform: translate(-50%, -50%);/* */
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+}
+
+section#login > div#form {
+    background-color: black;
+    display: block;
+    padding: 10px;
+}
+
+div {
+    background-color: black;
+}
+
+div#form > img {
+    display: block;
+    margin: auto;
+    border-radius: 0%;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+div.campo > p {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 18px;
+}
+
+div.campo > p > select {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+div.campo > label {
+    background-color: rgb(80, 80, 80);
+    display: none;
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    /* transform: translateY(-12px); */
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px); /* */
+}
+
+div.campo > input:hover {
+    background-color: rgb(39, 39, 39);
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding-top: 3px;
+    margin-top: 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+form > a.seila {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding-top: 3px;
+    margin-top: 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > a.seila:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+
+form > a.bottom {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    margin-top: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form > a.bottom:hover {
+    border: 1px solid gray;
+    color: gray;
+}

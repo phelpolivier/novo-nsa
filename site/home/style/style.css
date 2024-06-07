@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #C00000;
+    height: 106px;
+}
+
+header > a > img {
+    padding: 3px;
+}
+
+header > i#usuario {
+    display: block;
+    color: white;
+    position: relative;
+    max-width: 38px;
+    left: 330px;
+    bottom: 88px;
+    cursor: pointer;
+}
+
+header > i#menu {
+    display: block;
+    color: white;
+    position: relative;
+    max-width: 38px;
+    left: 295px;
+    bottom: 65px;
+    cursor: pointer;
+}
+
+header > menu#itens {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #C00000;
+    max-width: 110px;
+    max-height: 150px;
+    left: 264px;
+    bottom: 85px;
+}
+ 
+header > menu#itens > a {
+    margin: 2.2px;
+    color: white;
+    text-decoration: none;
+}
+
+header > menu#itens > a:hover {
+    color: rgb(207, 207, 207);
+    text-decoration: underline;
+}
+
+header > menu#pessoa {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #ad0000;
+    max-width: 110px;
+    max-height: 150px;
+    left: 264px;
+    bottom: 85px;
+}
+
+main > div > h1 {
+    padding: 10px;
+    border: 3px rgb(255, 255, 255) solid;
+    display: block;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    display: none;
+    background-color: #C00000;
+    color: white;
+}
